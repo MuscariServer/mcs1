@@ -4,5 +4,15 @@ console.info('Hello, World! (You will see this line every time client resources 
 
 onEvent('jei.hide.items', event => {
 	// Hide items in JEI here
-	// event.hide('minecraft:cobblestone')
+	event.hide('mekanism:digital_miner')
+	event.hide('tconstruct:copper_ore')
+	event.hide('tconstruct:copper_ingot')
+	event.hide('tconstruct:copper_block')
+    event.hide('projectred-core:copper_ingot')
+	event.hide('projectred-core:tin_ingot')
+	event.hide('#inventorypets:all_pets')
+})
+
+onEvent('jei.information', event => {
+	event.add('#inventorypets:all_pets', ['Voting reward!!'])
 })
