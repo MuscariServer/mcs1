@@ -42,5 +42,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./package.zip
-          asset_name: ${{ github.event.repository.name }}-${{ steps.version.outputs.version }}.zip
+          asset_name: MuscariPack-${{ steps.version.outputs.version }}.zip
           asset_content_type: application/zip
