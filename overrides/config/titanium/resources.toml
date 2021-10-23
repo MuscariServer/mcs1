@@ -2,20 +2,20 @@
 [modules]
 
 	[modules.resources]
-		enabled = false
+		enabled = true
 
 		[modules.resources.gold]
 
 			[modules.resources.gold.gear]
-				enabled = false
+				enabled = true
 
 		[modules.resources.diamond]
 
 			[modules.resources.diamond.gear]
-				enabled = false
+				enabled = true
 
 		[modules.resources.iron]
 
 			[modules.resources.iron.gear]
-				enabled = false
+				enabled = true
 
