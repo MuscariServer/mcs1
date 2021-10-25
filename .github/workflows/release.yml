@@ -54,10 +54,3 @@ jobs:
           title: 新しいバージョンが配信されました - ${{ steps.version.outputs.version }}
           description: |
             [ここをクリックしてダウンロード](${{ steps.upload-release-asset.outputs.browser_download_url }})
-          
-
-      - uses: sarisia/actions-status-discord@v1
-        if: always()
-        id: release-m
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_VERSION_M }}
