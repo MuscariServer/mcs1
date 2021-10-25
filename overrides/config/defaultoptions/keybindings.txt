@@ -47,14 +47,6 @@ key_keybind.simplyjetpacks.jetpack_ehover:key.keyboard.unknown:NONE
 key_keybind.simplyjetpacks.jetpack_charger:key.keyboard.unknown:NONE
 key_placebo.toggleWings:key.keyboard.keypad.8:NONE
 key_placebo.toggleTrails:key.keyboard.keypad.9:NONE
-key_key.buildinggadgets.settings_menu:key.keyboard.g:NONE
-key_key.buildinggadgets.range:key.keyboard.r:NONE
-key_key.buildinggadgets.undo:key.keyboard.u:NONE
-key_key.buildinggadgets.anchor:key.keyboard.h:NONE
-key_key.buildinggadgets.fuzzy:key.keyboard.unknown:NONE
-key_key.buildinggadgets.connected_area:key.keyboard.unknown:NONE
-key_key.buildinggadgets.rotate_mirror:key.keyboard.unknown:NONE
-key_key.buildinggadgets.material_list:key.keyboard.m:NONE
 key_key.mekanism.mode:key.keyboard.n:NONE
 key_key.mekanism.head_mode:key.keyboard.v:NONE
 key_key.mekanism.chest_mode:key.keyboard.g:NONE

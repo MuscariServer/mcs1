@@ -3902,9 +3902,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:crops/flax
 - pamhc2crops:flaxitem
 
-#buildinggadgets:template_convertible
-- minecraft:paper
-
 #forge:vegetables/cassava
 - pamhc2crops:cassavaitem
 
