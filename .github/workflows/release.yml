@@ -13,7 +13,7 @@ jobs:
         uses: thedoctor0/zip-release@master
         with:
           filename: 'package.zip'
-          exclusions: '*.git* /*node_modules/* .editorconfig *.md */.github/*'
+          exclusions: '*.git* *.md */.github/*'
 
       - name: Create release
         id: create_release
