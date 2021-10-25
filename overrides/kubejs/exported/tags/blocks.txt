@@ -468,8 +468,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:storage_blocks/carminite
 - twilightforest:carminite_block
 
-#buildinggadgets:whitelist/generic
-
 #byg:ground_araucaria_sapling
 - #forge:dirt
 
@@ -856,9 +854,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - twilightforest:snow_queen_wall_trophy
 - twilightforest:quest_ram_trophy
 - twilightforest:quest_ram_wall_trophy
-
-#buildinggadgets:blacklist/building
-- #buildinggadgets:blacklist/generic
 
 #byg:ground_begonia
 - #forge:dirt
@@ -1784,8 +1779,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:wool/orange
 - minecraft:orange_wool
-
-#buildinggadgets:blacklist/copy_paste
 
 #forge:storage_blocks/coal
 - minecraft:coal_block
@@ -3005,9 +2998,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #byg:ground_blue_spruce_sapling
 - #forge:dirt
 
-#buildinggadgets:whitelist/exchanging
-- #buildinggadgets:whitelist/generic
-
 #chisel:planks/acacia
 - chisel:planks/acacia/large_planks
 - chisel:planks/acacia/crude_horizontal_planks
@@ -3803,10 +3793,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:bloodshroom_button
 - #tconstruct:bloodshroom_logs
 
-#buildinggadgets:blacklist/generic
-- #minecraft:doors
-- #minecraft:beds
-
 #forge:sand/pink
 - byg:pink_sand
 
@@ -3937,8 +3923,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chisel:carpet/red/legacy
 - chisel:carpet/red/llama
 - minecraft:red_carpet
-
-#buildinggadgets:blacklist/destruction
 
 #byg:skyris_logs
 - byg:skyris_log
@@ -4407,9 +4391,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #byg:ground_baobab_sapling
 - #forge:dirt
-
-#buildinggadgets:whitelist/building
-- #buildinggadgets:whitelist/generic
 
 #twilightforest:ore_magnet/minecraft/end_stone
 - quark:biotite_ore?
@@ -5368,11 +5349,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:wool/light_gray
 - minecraft:light_gray_wool
 
-#buildinggadgets:blacklist/exchanging
-- #buildinggadgets:blacklist/generic
-- minecraft:torch
-- minecraft:wall_torch
-
 #twilightforest:fence_gates
 - twilightforest:twilight_oak_gate
 - twilightforest:canopy_gate
@@ -5469,8 +5445,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chisel:carpet/yellow/legacy
 - chisel:carpet/yellow/llama
 - minecraft:yellow_carpet
-
-#buildinggadgets:whitelist/destruction
 
 #forge:wool/gray
 - minecraft:gray_wool
@@ -5617,8 +5591,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:netherrack
 - minecraft:end_stone
 - twilightforest:root
-
-#buildinggadgets:whitelist/copy_paste
 
 #chisel:tyrian
 - chisel:tyrian/shining
