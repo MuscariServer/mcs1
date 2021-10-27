@@ -49,7 +49,7 @@ jobs:
         if: always()
         id: release
         with:
-          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          webhook: ${{ secrets.WEBHOOK_VERSION }}
           nodetail: true
           title: 新しいバージョンが配信されました - ${{ steps.version.outputs.version }}
           description: |
