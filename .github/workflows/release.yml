@@ -13,7 +13,7 @@ jobs:
         uses: thedoctor0/zip-release@master
         with:
           filename: 'package.zip'
-          exclusions: '*.git* /*node_modules/* .editorconfig *.md */.github/*'
+          exclusions: '*.git* *.md */.github/*'
 
       - name: Create release
         id: create_release
@@ -26,7 +26,7 @@ jobs:
           draft: false
           prerelease: false
 
-        - name: Set version
+      - name: Set version
         id: version
         run: |
           REPOSITORY=$(echo ${{ github.repository }} | sed -e "s#.*/##")
@@ -42,5 +42,15 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./package.zip
-          asset_name: MuscariPack-${{ steps.version.outputs.version }}.zip
+          asset_name: ${{ secrets.PACK_NAME }}-${{ steps.version.outputs.version }}.zip
           asset_content_type: application/zip
+
+      - uses: sarisia/actions-status-discord@v1
+        if: always()
+        id: release
+        with:
+          webhook: ${{ secrets.WEBHOOK_VERSION }}
+          nodetail: true
+          title: 新しいバージョンが配信されました - ${{ steps.version.outputs.version }}
+          description: |
+            [ここをクリックしてダウンロード](${{ steps.upload-release-asset.outputs.browser_download_url }})
