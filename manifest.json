@@ -3,7 +3,7 @@
     "version": "1.16.5",
     "modLoaders": [
       {
-        "id": "forge-36.2.8",
+        "id": "forge-36.2.9",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "MCS1",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "author": "",
   "files": [
     {
@@ -120,13 +120,13 @@
       "required": true
     },
     {
-      "projectID": 245211,
-      "fileID": 3319255,
+      "projectID": 283644,
+      "fileID": 3437009,
       "required": true
     },
     {
-      "projectID": 283644,
-      "fileID": 3437009,
+      "projectID": 245211,
+      "fileID": 3319255,
       "required": true
     },
     {
@@ -365,13 +365,13 @@
       "required": true
     },
     {
-      "projectID": 232131,
-      "fileID": 3330403,
+      "projectID": 237701,
+      "fileID": 3105779,
       "required": true
     },
     {
-      "projectID": 237701,
-      "fileID": 3105779,
+      "projectID": 232131,
+      "fileID": 3330403,
       "required": true
     },
     {
@@ -405,13 +405,13 @@
       "required": true
     },
     {
-      "projectID": 383669,
-      "fileID": 3429390,
+      "projectID": 229380,
+      "fileID": 3341486,
       "required": true
     },
     {
-      "projectID": 229380,
-      "fileID": 3341486,
+      "projectID": 383669,
+      "fileID": 3429390,
       "required": true
     },
     {
