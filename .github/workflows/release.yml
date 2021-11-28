@@ -8,12 +8,16 @@ jobs:
   package:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - name: Archive Release
         uses: thedoctor0/zip-release@master
         with:
           filename: 'package.zip'
-          exclusions: '*.git* *.md */.github/*'
+          exclusions: |
+           - '*.git*
+           - *.md
+           - */.github/*'
+           - .editorconfig
 
       - name: Create release
         id: create_release
@@ -33,7 +37,7 @@ jobs:
           VERSION=$(echo ${{ github.ref }} | sed -e "s#refs/tags/##g")
           echo ::set-output name=version::$VERSION
           echo "Version $VERSION"
-          
+
       - name: Upload Release Asset
         id: upload-release-asset
         uses: actions/upload-release-asset@v1.0.1
@@ -50,7 +54,9 @@ jobs:
         id: release
         with:
           webhook: ${{ secrets.WEBHOOK_VERSION }}
-          nodetail: true
-          title: 新しいバージョンが配信されました - ${{ steps.version.outputs.version }}
+          username: GitHub Actions
+          title: MCS1 new release!!
           description: |
-            [ここをクリックしてダウンロード](${{ steps.upload-release-asset.outputs.browser_download_url }})
+            新しいバージョン(`${{ steps.version.outputs.version }}`)がリリースされました。
+            バージョンUPのサーバアナウンス後に下記を使用してバージョンUPしてください。
+            [Download](${{ steps.upload-release-asset.outputs.browser_download_url }})
