@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "MCS1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "",
   "files": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "projectID": 478939,
-      "fileID": 3459386,
+      "fileID": 3535648,
       "required": true
     },
     {
@@ -155,13 +155,18 @@
       "required": true
     },
     {
+      "projectID": 401447,
+      "fileID": 3457863,
+      "required": true
+    },
+    {
       "projectID": 250763,
       "fileID": 3380280,
       "required": true
     },
     {
       "projectID": 454372,
-      "fileID": 3524851,
+      "fileID": 3528744,
       "required": true
     },
     {
@@ -182,11 +187,6 @@
     {
       "projectID": 365460,
       "fileID": 3281234,
-      "required": true
-    },
-    {
-      "projectID": 299540,
-      "fileID": 3172796,
       "required": true
     },
     {
@@ -306,7 +306,7 @@
     },
     {
       "projectID": 228702,
-      "fileID": 3459382,
+      "fileID": 3535644,
       "required": true
     },
     {
@@ -406,12 +406,12 @@
     },
     {
       "projectID": 229045,
-      "fileID": 3459383,
+      "fileID": 3535645,
       "required": true
     },
     {
       "projectID": 229046,
-      "fileID": 3459384,
+      "fileID": 3535646,
       "required": true
     },
     {
@@ -427,11 +427,6 @@
     {
       "projectID": 352039,
       "fileID": 3182364,
-      "required": true
-    },
-    {
-      "projectID": 288885,
-      "fileID": 3531308,
       "required": true
     },
     {
@@ -451,7 +446,7 @@
     },
     {
       "projectID": 258426,
-      "fileID": 3459903,
+      "fileID": 3529432,
       "required": true
     },
     {
