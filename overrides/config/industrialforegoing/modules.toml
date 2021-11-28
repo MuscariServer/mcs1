@@ -160,7 +160,7 @@
 			enabled = true
 
 		[modules.tools.infinity_nuke]
-			enabled = true
+			enabled = false
 
 		[modules.tools.mob_imprisonment_tool]
 			enabled = true
