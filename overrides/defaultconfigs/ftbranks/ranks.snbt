@@ -1,0 +1,15 @@
+{
+	default: {
+		name: "default"
+		power: 1
+		ftbchunks.max_claimed: 25
+		ftbchunks.max_force_loaded: 25
+	}
+	op: {
+		name: "op"
+		power: 100
+		condition: "op"
+		ftbchunks.max_claimed: 50
+		ftbchunks.max_force_loaded: 50
+	}
+}

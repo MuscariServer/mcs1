@@ -63,6 +63,7 @@ key_key.mekanism.key_hud:key.keyboard.h:NONE
 key_key.toastcontrol.clear:key.keyboard.j:NONE
 key_key.categories.naming:key.keyboard.n:NONE
 key_key.industrialforegoing.backpack.desc:key.keyboard.unknown:NONE
+key_key.tconstruct.helmet_interact:key.keyboard.z:NONE
 key_key.refinedstorage.focusSearchBar:key.keyboard.tab:NONE
 key_key.refinedstorage.clearGridCraftingMatrix:key.keyboard.x:CONTROL
 key_key.refinedstorage.openWirelessGrid:key.keyboard.unknown:NONE

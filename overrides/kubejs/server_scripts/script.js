@@ -21,7 +21,7 @@ onEvent('player.tick', event => {
     // Give some items to player
     event.player.give(Item.of('inventorypets:pet_meta', '{Damage:0}'))
 	
-	  // Remove the stage
+	// Remove the stage
     event.player.stages.remove('vote_reward')
   }
 })

@@ -33,7 +33,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","file/Unity-1.16.X-Base-2.4.0.zip","mod_resources"]
+resourcePacks:["vanilla","mod_resources","file/Unity-1.16.X-Base-2.4.0.zip","file/Unity-1.16.X-Modded-1.3.0.zip","file/Unity-1.16.X-Extras-1.1.0.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
