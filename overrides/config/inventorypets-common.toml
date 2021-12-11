@@ -234,7 +234,7 @@
 	#Disable the Mishumaa Saba pet (default:false)
 	disableMishumaaSaba = false
 	#Disable the Cobblestone pet (default:false)
-	disableCobblestone = false
+	disableCobblestone = true
 	#Disable the Furnace pet (default:false)
 	disableFurnace = false
 	#Disable the House pet (default:false)
