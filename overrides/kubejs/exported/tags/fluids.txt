@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 17, 2021 8:25:25 PM
+To refresh this file, delete it and run /reload command again! Last updated: Dec 17, 2021 4:22:06 PM
 
 #tconstruct:molten_manyullyn
 - tconstruct:molten_manyullyn
@@ -56,6 +56,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - mekanism:hydrogen
 - mekanism:flowing_hydrogen
 
+#tconstruct:molten_refined_obsidian
+- tconstruct:molten_refined_obsidian
+- tconstruct:flowing_molten_refined_obsidian
+
 #forge:molten_copper
 - #tconstruct:molten_copper
 
@@ -74,6 +78,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:molten_hepatizon
 - #tconstruct:molten_queens_slime
 - #forge:molten_netherite
+- #forge:molten_enderium
+- #forge:molten_lumium
+- #forge:molten_signalum
+- #forge:molten_refined_obsidian
 
 #forge:steam
 - mekanism:steam
@@ -93,6 +101,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:molten_constantan
 - #forge:molten_pewter
 - #forge:molten_steel
+- #forge:molten_refined_glowstone
 
 #forge:molten_bronze
 - #tconstruct:molten_bronze
@@ -143,6 +152,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #tconstruct:molten_soulsteel
 - tconstruct:molten_soulsteel
 - tconstruct:flowing_molten_soulsteel
+
+#forge:molten_enderium
+- #tconstruct:molten_enderium
 
 #forge:tritium
 - mekanismgenerators:tritium
@@ -208,6 +220,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:molten_nickel
 - #tconstruct:molten_nickel
 
+#forge:ender
+- #tconstruct:molten_ender
+
 #tconstruct:molten_ender
 - tconstruct:molten_ender
 - tconstruct:flowing_molten_ender
@@ -221,6 +236,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:molten_uranium
 - #tconstruct:molten_uranium
+
+#tconstruct:molten_enderium
+- tconstruct:molten_enderium
+- tconstruct:flowing_molten_enderium
 
 #forge:deuterium
 - mekanismgenerators:deuterium
@@ -256,6 +275,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #tconstruct:molten_osmium
 - tconstruct:molten_osmium
 - tconstruct:flowing_molten_osmium
+
+#tconstruct:molten_refined_glowstone
+- tconstruct:molten_refined_glowstone
+- tconstruct:flowing_molten_refined_glowstone
 
 #tconstruct:molten_slimesteel
 - tconstruct:molten_slimesteel
@@ -303,6 +326,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:blood
 - tconstruct:flowing_blood
 
+#forge:molten_refined_glowstone
+- #tconstruct:molten_refined_glowstone
+
+#tconstruct:molten_lumium
+- tconstruct:molten_lumium
+- tconstruct:flowing_molten_lumium
+
 #forge:experience
 - industrialforegoing:essence
 - industrialforegoing:essence_fluid
@@ -329,6 +359,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #tconstruct:molten_gold
 - tconstruct:molten_gold
 - tconstruct:flowing_molten_gold
+
+#forge:molten_lumium
+- #tconstruct:molten_lumium
 
 #forge:molten_gold
 - #tconstruct:molten_gold
@@ -405,9 +438,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:ender_slime
 - tconstruct:flowing_ender_slime
 
+#tconstruct:molten_signalum
+- tconstruct:molten_signalum
+- tconstruct:flowing_molten_signalum
+
 #tconstruct:magma
 - tconstruct:magma
 - tconstruct:flowing_magma
+
+#forge:molten_signalum
+- #tconstruct:molten_signalum
 
 #tconstruct:molten_diamond
 - tconstruct:molten_diamond
@@ -452,11 +492,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:molten_constantan
 - #forge:molten_pewter
 - #forge:molten_steel
+- #forge:molten_enderium
+- #forge:molten_lumium
+- #forge:molten_signalum
+- #forge:molten_refined_glowstone
+- #forge:molten_refined_obsidian
 
 #tconstruct:slimelike
 - #forge:magma
 - #tconstruct:blood
-- #tconstruct:molten_ender
+- #forge:ender
 - #tconstruct:slime
 
 #tconstruct:molten_zinc
@@ -475,6 +520,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #tconstruct:molten_queens_slime
 - tconstruct:molten_queens_slime
 - tconstruct:flowing_molten_queens_slime
+
+#forge:molten_refined_obsidian
+- #tconstruct:molten_refined_obsidian
 
 #forge:brine
 - mekanism:brine

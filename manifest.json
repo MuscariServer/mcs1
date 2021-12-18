@@ -3,15 +3,15 @@
     "version": "1.16.5",
     "modLoaders": [
       {
-        "id": "forge-36.2.20",
+        "id": "forge-36.2.22",
         "primary": true
       }
     ]
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "MCS1-v1.0.3",
-  "version": "1.0.3",
+  "name": "MCS1-v1.0.4",
+  "version": "1.0.4",
   "author": "",
   "files": [
     {
@@ -171,7 +171,7 @@
     },
     {
       "projectID": 268647,
-      "fileID": 3293040,
+      "fileID": 3566578,
       "required": true
     },
     {
@@ -186,7 +186,7 @@
     },
     {
       "projectID": 399558,
-      "fileID": 3556064,
+      "fileID": 3562328,
       "required": true
     },
     {
@@ -210,8 +210,18 @@
       "required": true
     },
     {
+      "projectID": 316582,
+      "fileID": 3447907,
+      "required": true
+    },
+    {
       "projectID": 416294,
       "fileID": 3525704,
+      "required": true
+    },
+    {
+      "projectID": 410168,
+      "fileID": 3567471,
       "required": true
     },
     {
@@ -256,7 +266,7 @@
     },
     {
       "projectID": 351725,
-      "fileID": 3516271,
+      "fileID": 3565142,
       "required": true
     },
     {
@@ -276,7 +286,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 3555166,
+      "fileID": 3563802,
       "required": true
     },
     {
@@ -346,17 +356,17 @@
     },
     {
       "projectID": 238222,
-      "fileID": 3530253,
+      "fileID": 3564654,
       "required": true
     },
     {
       "projectID": 348521,
-      "fileID": 3521275,
+      "fileID": 3559634,
       "required": true
     },
     {
       "projectID": 363569,
-      "fileID": 3443597,
+      "fileID": 3565137,
       "required": true
     },
     {
@@ -386,7 +396,7 @@
     },
     {
       "projectID": 378646,
-      "fileID": 3340793,
+      "fileID": 3565136,
       "required": true
     },
     {
@@ -401,7 +411,7 @@
     },
     {
       "projectID": 400933,
-      "fileID": 3488763,
+      "fileID": 3565140,
       "required": true
     },
     {
@@ -451,7 +461,7 @@
     },
     {
       "projectID": 502372,
-      "fileID": 3387338,
+      "fileID": 3565139,
       "required": true
     },
     {
@@ -466,7 +476,7 @@
     },
     {
       "projectID": 453925,
-      "fileID": 3472412,
+      "fileID": 3565138,
       "required": true
     },
     {
@@ -486,7 +496,7 @@
     },
     {
       "projectID": 74072,
-      "fileID": 3551295,
+      "fileID": 3564691,
       "required": true
     }
   ],

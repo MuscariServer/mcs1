@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 17, 2021 8:25:25 PM
+To refresh this file, delete it and run /reload command again! Last updated: Dec 17, 2021 4:22:06 PM
 
 #forge:carbs/barley
 - pamhc2crops:barleyitem
@@ -36,6 +36,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:crops/lettuce
 - pamhc2crops:lettuceitem
 
+#tconstruct:stoneshields
+- #forge:stone
+- #forge:cobblestone
+- #forge:sandstone
+- #forge:end_stones
+- #forge:gravel
+- minecraft:netherrack
+- minecraft:basalt
+- minecraft:polished_basalt
+- minecraft:blackstone
+- minecraft:polished_blackstone
+
 #forge:cookedchicken/cookedchicken
 - minecraft:cooked_chicken
 
@@ -48,6 +60,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:sodas/strawberrysodaitem
 - pamhc2foodextended:strawberrysodaitem
+
+#refinedstorage:parts/items/256k
+- extrastorage:storagepart_256k
 
 #forge:tortilla/tortilla
 - pamhc2foodextended:tortillaitem
@@ -264,6 +279,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:seeds/brusselsprout
 - pamhc2crops:brusselsproutseeditem
 
+#refinedstorage:disks/items/256k
+- extrastorage:disk_256k
+
 #chisel:emerald
 - chisel:emerald/panel
 - chisel:emerald/panelclassic
@@ -448,6 +466,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:glass/light_blue
 - minecraft:light_blue_stained_glass
 - tconstruct:light_blue_clear_stained_glass
+
+#refinedstorage:disks/fluids
+- #refinedstorage:disks/fluids/16384k
+- #refinedstorage:disks/fluids/65536k
+- #refinedstorage:disks/fluids/262144k
+- #refinedstorage:disks/fluids/1048576k
 
 #forge:vinegar_ingredients/gooseberry
 - pamhc2trees:gooseberryitem
@@ -779,6 +803,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:sword
 - tconstruct:cleaver
 - tconstruct:flint_and_bronze
+- #tconstruct:modifiable/armor/boots
 
 #forge:stock_ingredients/rawsalmon
 - minecraft:salmon
@@ -1036,6 +1061,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:jellies/lemonjelly
 - pamhc2foodextended:lemonjellyitem
 
+#tconstruct:smeltery
+- #tconstruct:seared_blocks
+- #tconstruct:seared_tanks
+- tconstruct:smeltery_controller
+- tconstruct:seared_drain
+- tconstruct:seared_chute
+- tconstruct:seared_duct
+- tconstruct:seared_glass
+- tconstruct:seared_ladder
+
 #refinedstorage:crafter
 - refinedstorage:pink_crafter
 - refinedstorage:gray_crafter
@@ -1194,6 +1229,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #tconstruct:casts/multi_use/plate
 - #tconstruct:casts/multi_use/gear
 - #tconstruct:casts/multi_use/coin
+- #tconstruct:casts/multi_use/wire
 - #tconstruct:casts/multi_use/pickaxe_head
 - #tconstruct:casts/multi_use/small_axe_head
 - #tconstruct:casts/multi_use/small_blade
@@ -1221,6 +1257,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #mekanism:enriched/redstone
 - mekanism:enriched_redstone
+
+#rftoolsutility:living/living
+- #rftoolsutility:living/lowyield
+- #rftoolsutility:living/averageyield
+- #rftoolsutility:living/highyield
 
 #forge:icecreams/neapolitanicecream
 - pamhc2foodextended:neapolitanicecreamitem
@@ -1566,6 +1607,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:storage_blocks/fiery
 - twilightforest:fiery_block
 
+#tconstruct:modifiable/melee_or_unarmed
+- #tconstruct:modifiable/melee
+- #tconstruct:modifiable/armor/chestplate
+
 #forge:chests/electric
 - mekanism:personal_chest
 
@@ -1740,6 +1785,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:tools/wrench
 - mekanism:configurator
+- rftoolsbase:smartwrench
+- rftoolsbase:smartwrench_select
 
 #forge:nuggets/tin
 - mekanism:nugget_tin
@@ -1751,6 +1798,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:crafting_table
 - tconstruct:crafting_station
 - #forge:workbench?
+
+#tconstruct:modifiable/armor/boots
+- tconstruct:travelers_boots
+- tconstruct:plate_boots
+- tconstruct:slime_boots
 
 #forge:dusts/gold
 - mekanism:dust_gold
@@ -2158,6 +2210,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:plate_red_sand_cast
 - tconstruct:gear_red_sand_cast
 - tconstruct:coin_red_sand_cast
+- tconstruct:wire_red_sand_cast
 - tconstruct:pickaxe_head_red_sand_cast
 - tconstruct:small_axe_head_red_sand_cast
 - tconstruct:small_blade_red_sand_cast
@@ -2169,12 +2222,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:tool_handle_red_sand_cast
 - tconstruct:tough_handle_red_sand_cast
 
-#itemfilters:check_nbt
-- minecraft:potion
-- minecraft:splash_potion
-- minecraft:lingering_potion
-- minecraft:enchanted_book
-- minecraft:tipped_arrow
+#tconstruct:modifiable/armor/chestplate
+- tconstruct:travelers_chestplate
+- tconstruct:plate_chestplate
+- tconstruct:slime_chestplate
 
 #minecraft:birch_logs
 - minecraft:birch_log
@@ -2517,6 +2568,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:cracked_stone_bricks
 - minecraft:stone_bricks
 
+#refinedstorage:parts/items
+- #refinedstorage:parts/items/256k
+- #refinedstorage:parts/items/1024k
+- #refinedstorage:parts/items/4096k
+- #refinedstorage:parts/items/16384k
+
 #chisel:cobblestone
 - chisel:cobblestone/cracked
 - chisel:cobblestone/solid_bricks
@@ -2573,6 +2630,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:ores/pendorite
 - byg:pendorite_ore
 
+#refinedstorage:storage_blocks/items/1024k
+- extrastorage:block_1024k
+
 #forge:crops/cactusfruit
 - pamhc2crops:cactusfruititem
 
@@ -2597,6 +2657,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:sword
 - tconstruct:cleaver
 - tconstruct:flint_and_bronze
+- tconstruct:travelers_boots
+- tconstruct:travelers_leggings
+- tconstruct:travelers_chestplate
+- tconstruct:travelers_helmet
+- tconstruct:plate_boots
+- tconstruct:plate_leggings
+- tconstruct:plate_chestplate
+- tconstruct:plate_helmet
+- tconstruct:slime_boots
+- tconstruct:slime_leggings
+- tconstruct:slime_chestplate
+- tconstruct:slime_helmet
 
 #curios:curio
 - refinedstorage:wireless_grid
@@ -2641,6 +2713,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chisel:concrete/pink/prism
 - chisel:concrete/pink/cuts
 - minecraft:pink_concrete
+
+#refinedstorage:disks/items
+- #refinedstorage:disks/items/256k
+- #refinedstorage:disks/items/1024k
+- #refinedstorage:disks/items/4096k
+- #refinedstorage:disks/items/16384k
 
 #forge:vinegar_ingredients/lychee
 - pamhc2trees:lycheeitem
@@ -2690,6 +2768,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:stripped_pine_log
 - byg:pine_wood
 - byg:stripped_pine_wood
+
+#refinedstorage:storage_blocks/fluids/65536k
+- extrastorage:block_65536k_fluid
 
 #forge:glass_panes/magenta
 - minecraft:magenta_stained_glass_pane
@@ -2859,6 +2940,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chisel:planks/jungle/log_cabin
 - minecraft:jungle_planks
 
+#refinedstorage:storage_blocks/items/16384k
+- extrastorage:block_16384k
+
 #forge:ender_pearls
 - minecraft:ender_pearl
 
@@ -2938,6 +3022,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #tconstruct:casts/single_use/plate
 - #tconstruct:casts/single_use/gear
 - #tconstruct:casts/single_use/coin
+- #tconstruct:casts/single_use/wire
 - #tconstruct:casts/single_use/pickaxe_head
 - #tconstruct:casts/single_use/small_axe_head
 - #tconstruct:casts/single_use/small_blade
@@ -3100,6 +3185,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:seeds/arrowroot
 - pamhc2crops:arrowrootseeditem
 
+#refinedstorage:parts/items/1024k
+- extrastorage:storagepart_1024k
+
 #forge:seeds/melonseeds
 - minecraft:melon_seeds
 
@@ -3221,24 +3309,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - inventorypets:pet_cloud
 - inventorypets:pet_pufferfish
 
-#itemfilters:filters
-- itemfilters:always_true
-- itemfilters:always_false
-- itemfilters:or
-- itemfilters:and
-- itemfilters:not
-- itemfilters:xor
-- itemfilters:tag
-- itemfilters:mod
-- itemfilters:item_group
-- itemfilters:id_regex
-- itemfilters:damage
-- itemfilters:block
-- itemfilters:max_count
-- itemfilters:strong_nbt
-- itemfilters:weak_nbt
-- itemfilters:custom
-
 #forge:seeds/blueberry
 - pamhc2crops:blueberryseeditem
 
@@ -3267,6 +3337,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chisel:wool/light_blue/legacy
 - chisel:wool/light_blue/llama
 - minecraft:light_blue_wool
+
+#tconstruct:structure_debug/general
 
 #forge:salsa/salsa
 - pamhc2foodextended:salsaitem
@@ -3469,6 +3541,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:butter
 - #forge:butter/silkentofu
 - #forge:butter/butter
+
+#refinedstorage:storage_blocks
+- #refinedstorage:storage_blocks/items
+- #refinedstorage:storage_blocks/fluids
 
 #tconstruct:planklike
 - #minecraft:planks
@@ -3772,6 +3848,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:cookedrabbit
 - #forge:cookedrabbit/cookedrabbit
 
+#refinedstorage:disks
+- #refinedstorage:disks/items
+- #refinedstorage:disks/fluids
+
 #forge:salad_ingredients/zucchini
 - pamhc2crops:zucchiniitem
 
@@ -3792,9 +3872,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:icecreams/vanillaicecream
 - pamhc2foodextended:vanillaicecreamitem
-
-#tconstruct:structure_debug
-- #tconstruct:guides
 
 #forge:carbs/rye
 - pamhc2crops:ryeitem
@@ -3824,6 +3901,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chisel:carpet/blue/llama
 - minecraft:blue_carpet
 
+#refinedstorage:parts/fluids/16384k
+- extrastorage:storagepart_16384k_fluid
+
 #forge:fruits/gooseberry
 - pamhc2trees:gooseberryitem
 
@@ -3835,6 +3915,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:crops/pineapple
 - pamhc2crops:pineappleitem
+
+#refinedstorage:storage_blocks/fluids/16384k
+- extrastorage:block_16384k_fluid
 
 #forge:vinegar_ingredients/lime
 - pamhc2trees:limeitem
@@ -4080,6 +4163,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:ingots/slimesteel
 - tconstruct:slimesteel_ingot
 
+#refinedstorage:disks/fluids/16384k
+- extrastorage:disk_16384k_fluid
+
 #twilightforest:timewood_logs
 - twilightforest:time_log
 - twilightforest:stripped_time_log
@@ -4179,6 +4265,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:ingots/fiery
 - twilightforest:fiery_ingot
+
+#refinedstorage:storage_blocks/fluids/262144k
+- extrastorage:block_262144k_fluid
 
 #forge:fruits/durian
 - pamhc2trees:durianitem
@@ -4311,6 +4400,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - inventorypets:pet_sheep
 - inventorypets:pet_squid
 
+#tconstruct:casts/multi_use/wire
+- tconstruct:wire_cast
+
 #forge:chestplates
 - byg:ametrine_chestplate
 
@@ -4330,6 +4422,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:storage_blocks/constantan?
 - #forge:storage_blocks/pewter?
 - #forge:storage_blocks/steel?
+- #forge:storage_blocks/enderium?
+- #forge:storage_blocks/lumium?
+- #forge:storage_blocks/signalum?
+- #forge:storage_blocks/refined_glowstone?
+- #forge:storage_blocks/refined_obsidian?
 
 #forge:groundmeats/groundrabbit
 - pamhc2foodcore:groundrabbititem
@@ -4405,6 +4502,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:salsa
 - #forge:salsa/salsa
+
+#refinedstorage:disks/items/16384k
+- extrastorage:disk_16384k
 
 #forge:crops/scallion
 - pamhc2crops:scallionitem
@@ -4543,6 +4643,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:crocus
 - byg:tall_allium
 
+#refinedstorage:disks/fluids/1048576k
+- extrastorage:disk_1048576k_fluid
+
 #forge:rawbeef
 - #forge:rawbeef/rawtofeakitem
 - #forge:rawbeef/rawbeef
@@ -4651,6 +4754,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:dagger
 - tconstruct:sword
 - tconstruct:cleaver
+- tconstruct:slime_helmet
 
 #forge:dyes/white
 - minecraft:white_dye
@@ -4782,6 +4886,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:nuggets/lead
 - mekanism:nugget_lead
 
+#tconstruct:fireballs
+- minecraft:fire_charge
+
 #forge:melonjuice
 - #forge:melonjuice/melonjuice
 
@@ -4793,6 +4900,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #mekanism:shards/lead
 - mekanism:shard_lead
+
+#refinedstorage:parts/fluids/65536k
+- extrastorage:storagepart_65536k_fluid
 
 #tconstruct:modifiable/held
 - #tconstruct:modifiable/one_handed
@@ -4910,6 +5020,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:nuggets/cobalt
 - tconstruct:cobalt_nugget
 
+#refinedstorage:disks/fluids/65536k
+- extrastorage:disk_65536k_fluid
+
 #forge:crops/parsnip
 - pamhc2crops:parsnipitem
 
@@ -4996,6 +5109,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:jellies/mangojelly
 - pamhc2foodextended:mangojellyitem
+
+#refinedstorage:storage_blocks/fluids/1048576k
+- extrastorage:block_1048576k_fluid
 
 #forge:chests/ender
 - minecraft:ender_chest
@@ -5203,6 +5319,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:ebony_wood
 - byg:stripped_ebony_wood
 
+#refinedstorage:parts/items/4096k
+- extrastorage:storagepart_4096k
+
 #forge:seeds/tomato
 - pamhc2crops:tomatoseeditem
 
@@ -5211,6 +5330,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:nutbutters/chestnutbutter
 - pamhc2foodextended:chestnutbutteritem
+
+#tconstruct:foundry
+- #tconstruct:scorched_blocks
+- #tconstruct:scorched_tanks
+- tconstruct:foundry_controller
+- tconstruct:scorched_drain
+- tconstruct:scorched_chute
+- tconstruct:scorched_duct
+- tconstruct:scorched_glass
+- tconstruct:scorched_ladder
 
 #forge:salad_ingredients/brusselsprout
 - pamhc2crops:brusselsproutitem
@@ -5340,11 +5469,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chisel:concrete/magenta/cuts
 - minecraft:magenta_concrete
 
+#tconstruct:structure_debug/foundry
+- #tconstruct:structure_debug/general
+- #tconstruct:foundry
+
 #forge:nuggets/refined_obsidian
 - mekanism:nugget_refined_obsidian
 
 #forge:grain/oats
 - pamhc2crops:oatsitem
+
+#refinedstorage:parts/fluids/262144k
+- extrastorage:storagepart_262144k_fluid
 
 #forge:fruits/juniperberry
 - pamhc2crops:juniperberryitem
@@ -5707,6 +5843,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - chisel:wool/black/llama
 - minecraft:black_wool
 
+#refinedstorage:parts/items/16384k
+- extrastorage:storagepart_16384k
+
 #forge:vegetables/sweetpotato
 - pamhc2crops:sweetpotatoitem
 
@@ -5784,6 +5923,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:ores/lead
 - mekanism:lead_ore
+
+#tconstruct:casts/single_use/wire
+- tconstruct:wire_sand_cast
+- tconstruct:wire_red_sand_cast
 
 #forge:juices/grapefruitjuice
 - pamhc2foodextended:grapefruitjuiceitem
@@ -6549,6 +6692,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:crops/gooseberry
 - pamhc2trees:gooseberryitem
 
+#tconstruct:modifiable/interactable
+- #tconstruct:modifiable/held
+- #tconstruct:modifiable/armor/chestplate
+
 #forge:flour_plants/wheat
 - minecraft:wheat
 
@@ -6955,6 +7102,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:snowdrops
 - byg:angelica
 
+#refinedstorage:storage_blocks/fluids
+- #refinedstorage:storage_blocks/fluids/16384k
+- #refinedstorage:storage_blocks/fluids/65536k
+- #refinedstorage:storage_blocks/fluids/262144k
+- #refinedstorage:storage_blocks/fluids/1048576k
+
 #forge:fruits/candleberry
 - pamhc2crops:candleberryitem
 
@@ -7025,6 +7178,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - pamhc2foodextended:pearjuiceitem
 
 #industrialforegoing:enchantment_extractor_blacklist
+
+#refinedstorage:parts/fluids
+- #refinedstorage:parts/fluids/16384k
+- #refinedstorage:parts/fluids/65536k
+- #refinedstorage:parts/fluids/262144k
+- #refinedstorage:parts/fluids/1048576k
 
 #forge:rawrabbit/rawtofabbititem
 - pamhc2foodextended:rawtofabbititem
@@ -7420,6 +7579,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:ores/ironwood
 - twilightforest:ironwood_raw
 
+#tconstruct:modifiable/armor/leggings
+- tconstruct:travelers_leggings
+- tconstruct:plate_leggings
+- tconstruct:slime_leggings
+
 #forge:gems/ametrine
 - byg:ametrine_gems
 
@@ -7428,6 +7592,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:protein/rice
 - pamhc2crops:riceitem
+
+#tconstruct:modifiable/armor
+- #tconstruct:modifiable/armor/boots
+- #tconstruct:modifiable/armor/leggings
+- #tconstruct:modifiable/armor/chestplate
+- #tconstruct:modifiable/armor/helmets
 
 #forge:grain/soybean
 - pamhc2crops:soybeanitem
@@ -7452,6 +7622,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:plate_cast
 - tconstruct:gear_cast
 - tconstruct:coin_cast
+- tconstruct:wire_cast
 - tconstruct:pickaxe_head_cast
 - tconstruct:small_axe_head_cast
 - tconstruct:small_blade_cast
@@ -7671,6 +7842,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:plate_sand_cast
 - tconstruct:gear_sand_cast
 - tconstruct:coin_sand_cast
+- tconstruct:wire_sand_cast
 - tconstruct:pickaxe_head_sand_cast
 - tconstruct:small_axe_head_sand_cast
 - tconstruct:small_blade_sand_cast
@@ -7727,6 +7899,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:cream/silkentofu
 - pamhc2foodextended:silkentofuitem
+
+#rftoolsutility:living/lowyield
+- #minecraft:leaves
+- #minecraft:saplings
+- #minecraft:flowers
+- #forge:mushrooms
+- #forge:seeds
+- minecraft:cactus
+- minecraft:vine
+- minecraft:lily_pad
+- minecraft:rabbit_hide
 
 #forge:juices/cherryjuice
 - pamhc2foodextended:cherryjuiceitem
@@ -8187,6 +8370,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:ores/uranium
 - #forge:ores/fluorite
 - #forge:ores/lead
+- rftoolsbase:dimensionalshard_end
+- rftoolsbase:dimensionalshard_nether
+- rftoolsbase:dimensionalshard_overworld
 - #forge:ores/coal
 - #forge:ores/diamond
 - #forge:ores/emerald
@@ -8347,6 +8533,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:crops/taro
 - pamhc2crops:taroitem
+
+#refinedstorage:storage_blocks/items
+- #refinedstorage:storage_blocks/items/256k
+- #refinedstorage:storage_blocks/items/1024k
+- #refinedstorage:storage_blocks/items/4096k
+- #refinedstorage:storage_blocks/items/16384k
 
 #forge:nuggets/bronze
 - mekanism:nugget_bronze
@@ -8791,6 +8983,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:milk/freshmilk
 - pamhc2foodcore:freshmilkitem
 
+#rftoolsutility:living/highyield
+- #forge:crops
+- #minecraft:fishes
+- minecraft:beef
+- minecraft:porkchop
+- minecraft:mutton
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:chorus_fruit
+
 #forge:fence_gates/plastic
 - mekanismadditions:black_plastic_fence_gate
 - mekanismadditions:red_plastic_fence_gate
@@ -8821,6 +9023,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:flour_plants/peas
 - pamhc2crops:peasitem
+
+#refinedstorage:storage_blocks/items/4096k
+- extrastorage:block_4096k
 
 #forge:seeds/cactusfruit
 - pamhc2crops:cactusfruitseeditem
@@ -9139,6 +9344,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:fruits/rambutan
 - pamhc2trees:rambutanitem
 
+#refinedstorage:storage_blocks/items/256k
+- extrastorage:block_256k
+
 #forge:jellies/pineapplejelly
 - pamhc2foodextended:pineapplejellyitem
 
@@ -9207,6 +9415,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:nuggets/queens_slime
 - tconstruct:queens_slime_nugget
+
+#tconstruct:modifiable/armor/helmets
+- tconstruct:travelers_helmet
+- tconstruct:plate_helmet
+- tconstruct:slime_helmet
 
 #forge:fruits/huckleberry
 - pamhc2crops:huckleberryitem
@@ -9462,6 +9675,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:carbs/oats
 - pamhc2crops:oatsitem
 
+#tconstruct:structure_debug/smeltery
+- #tconstruct:structure_debug/general
+- #tconstruct:smeltery
+
 #byg:pink_dye
 - byg:osiria_rose
 - byg:japanese_orchid
@@ -9568,6 +9785,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:nightshade_bookshelf
 - byg:imparius_bookshelf
 
+#refinedstorage:disks/fluids/262144k
+- extrastorage:disk_262144k_fluid
+
 #forge:dyes
 - #forge:dyes/white
 - #forge:dyes/orange
@@ -9660,7 +9880,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - pamhc2crops:taroitem
 
 #mantle:offhand_cooldown
-- #tconstruct:modifiable/melee
 
 #forge:friedegg
 - #forge:friedegg/friedegg
@@ -9778,8 +9997,30 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:azalea
 - byg:delphinium
 
+#refinedstorage:disks/items/4096k
+- extrastorage:disk_4096k
+
 #forge:crops/soursop
 - pamhc2trees:soursopitem
+
+#tconstruct:inventory_blacklist
+- minecraft:shulker_box
+- minecraft:white_shulker_box
+- minecraft:orange_shulker_box
+- minecraft:magenta_shulker_box
+- minecraft:light_blue_shulker_box
+- minecraft:yellow_shulker_box
+- minecraft:lime_shulker_box
+- minecraft:pink_shulker_box
+- minecraft:gray_shulker_box
+- minecraft:light_gray_shulker_box
+- minecraft:cyan_shulker_box
+- minecraft:purple_shulker_box
+- minecraft:blue_shulker_box
+- minecraft:brown_shulker_box
+- minecraft:green_shulker_box
+- minecraft:red_shulker_box
+- minecraft:black_shulker_box
 
 #forge:groundmeats/groundchicken
 - pamhc2foodcore:groundchickenitem
@@ -9951,6 +10192,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:seeds/greengrape
 - pamhc2crops:greengrapeseeditem
 
+#refinedstorage:parts/fluids/1048576k
+- extrastorage:storagepart_1048576k_fluid
+
 #forge:rawbeef/rawbeef
 - minecraft:beef
 
@@ -10020,6 +10264,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:mushrooms/whitemushroom
 - pamhc2crops:whitemushroomitem
+
+#refinedstorage:parts
+- #refinedstorage:parts/items
+- #refinedstorage:parts/fluids
 
 #forge:crops/grape
 - pamhc2crops:grapeitem
@@ -10100,6 +10348,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:silicon
 - refinedstorage:silicon
 
+#rftoolsutility:living/averageyield
+- minecraft:melon
+- minecraft:sugar_cane
+- minecraft:chorus_flower
+- minecraft:pumpkin
+- minecraft:cocoa_beans
+- minecraft:apple
+- minecraft:rabbit_foot
+
 #chisel:wool/white
 - chisel:wool/white/legacy
 - chisel:wool/white/llama
@@ -10116,6 +10373,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:crops/peanut
 - pamhc2crops:peanutitem
+
+#refinedstorage:disks/items/1024k
+- extrastorage:disk_1024k
 
 #forge:fruits/elderberry
 - pamhc2crops:elderberryitem
