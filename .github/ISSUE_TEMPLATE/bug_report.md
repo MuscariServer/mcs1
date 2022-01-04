@@ -26,6 +26,9 @@ assignees: tier940
 
 **環境:**
  - OS: [例: Windows 10]
+ - Launcher [例: CurseForge]
+ - 追加で入れたMod [例: Optifine]
+ - Javaのバージョン(なくても大丈夫) [例: jdk1.8.0_311]
 
 **留意事項**
 他に書くことがあったら書いてください。
